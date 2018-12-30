@@ -22,7 +22,11 @@ import com.unisys.pom.util.DataUtil;
 public class LoginTest extends BaseTest {
 	String testCaseName="LoginTest";
 	String testCaseName1="LoginTest";
+<<<<<<< HEAD
 	String testCaseName100="LoginTest";
+=======
+	String testCaseName2="LoginTest";
+>>>>>>> ce4d7896b304b3ead84383289a56033f8cfed7cc
 
 	@Test(dataProvider="getData")
 	public void doLogin(Hashtable<String, String> data)
