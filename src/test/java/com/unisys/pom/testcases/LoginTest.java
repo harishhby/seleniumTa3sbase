@@ -21,6 +21,7 @@ import com.unisys.pom.util.DataUtil;
 
 public class LoginTest extends BaseTest {
 	String testCaseName="LoginTest";
+	String testCaseName1="LoginTest";
 
 	@Test(dataProvider="getData")
 	public void doLogin(Hashtable<String, String> data)
